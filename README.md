@@ -12,6 +12,8 @@ some projects on ubuntu
 
     掏出了紫书，可能做题会更有动力吧。一道c++和python的实战。
 
+---
+
 ### UVA1585
 
   >There is an objective test result such as "OOXXOXXOOO". An'O'means a correct answer of a problem and an 'X' means a wrong answer. The score of each problem of this test is calculated by itself andits just previous consecutive 'O's only when the answer is correct. For example, the score of the 10th problem is 3 that is obtained by itself and its two previous consecutive 'O's.Therefore, the score of "OOXXOXXOOO" is 10 which is calculated by \1+2+0+0+1+0+0+1+2+3".You are to write a program calculating the scores of test results.
@@ -62,12 +64,17 @@ python manage.py runserver
 
 ```
 
+---
+
 ### UVA1586
 
-   >In this problem, we assume that the molecular formula is represented by only four elements, 'C'(Carbon), 'H' (Hydrogen), O'(Oxygen), and `N' (Nitrogen) without parentheses.
-   >The following table shows that the standard atomic weights for 'C', 'H', 'O', and `N'.<br> 
-   >Atomic Name	            Carbon	    Hydrogen	Oxygen	    Nitrogen <br> 
-   >Standard Atomic Weight	12.01 g/mol	1.008 g/mol	16.00 g/mol	14.01 g/mol<br>
+   >In this problem, we assume that the molecular formula is represented by only four elements, 'C'(Carbon), 'H' (Hydrogen), O'(Oxygen), and 'N' (Nitrogen) without parentheses.
+   >The following table shows that the standard atomic weights for 'C', 'H', 'O', and 'N'.<br> 
+
+    Atomic Name            | Carbon      | Hydrogen    | Oxygen       | Nitrogen |
+    ------ | ------ | ------ | ------ | ------ |
+    Standard Atomic Weight | 12.01 g/mol | 1.008 g/mol | 16.00 g/mol  | 14.01 g/mol |
+
    >For example, the molar mass of a molecular formula C6H5OH is 94.108 g/mol which is computed by 6 × (12.01 g/mol) + 6 × (1.008 g/mol) + 1 × (16.00 g/mol).<br> 
    >Given a molecular formula, write a program to compute the molar mass of the formula.
 
