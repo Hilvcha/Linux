@@ -64,12 +64,12 @@ python manage.py runserver
 
 ### UVA1586
 
-    >In this problem, we assume that the molecular formula is represented by only four elements, `C'(Carbon), `H' (Hydrogen), `O'(Oxygen), and `N' (Nitrogen) without parentheses.
-    The following table shows that the standard atomic weights for `C', `H', `O', and `N'.
-    Atomic Name	Carbon	Hydrogen	Oxygen	Nitrogen
-    Standard Atomic Weight	12.01 g/mol	1.008 g/mol	16.00 g/mol	14.01 g/mol
-    For example, the molar mass of a molecular formula C6H5OH is 94.108 g/mol which is computed by 6 × (12.01 g/mol) + 6 × (1.008 g/mol) + 1 × (16.00 g/mol).
-    Given a molecular formula, write a program to compute the molar mass of the formula.
+   >In this problem, we assume that the molecular formula is represented by only four elements, `C'(Carbon), `H' (Hydrogen), `O'(Oxygen), and `N' (Nitrogen) without parentheses.
+   >The following table shows that the standard atomic weights for `C', `H', `O', and `N'.<br> 
+   >Atomic Name	Carbon	Hydrogen	Oxygen	Nitrogen <br> 
+   >Standard Atomic Weight	12.01 g/mol	1.008 g/mol	16.00 g/mol	14.01 g/mol<br>
+   >For example, the molar mass of a molecular formula C6H5OH is 94.108 g/mol which is computed by 6 × (12.01 g/mol) + 6 × (1.008 g/mol) + 1 × (16.00 g/mol).<br> 
+   >Given a molecular formula, write a program to compute the molar mass of the formula.
 
 折腾了很久，因为想复习c++的语法。<br> 
 使用map这种比较容易扩展的容器来存储原子表。<br>
@@ -81,3 +81,4 @@ cin的格式化输出真是个坑，非常麻烦，还会影响之后的语句�
     cout<<setiosflags(ios::scientific)<<12345.0<<endl;//输出"1.234500e+004 " 
     
 而且我不想先读入所有的再分析，而是实时的读入一个判断一个，动态的在局部对各种状态决策，对于大规模的数据同样适用。为了便于循环处理，采用了类似于头节点的机制，先读入一个字符。<br>
+
