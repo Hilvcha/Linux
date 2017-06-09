@@ -64,9 +64,9 @@ python manage.py runserver
 
 ### UVA1586
 
-   >In this problem, we assume that the molecular formula is represented by only four elements, `C'(Carbon), `H' (Hydrogen), `O'(Oxygen), and `N' (Nitrogen) without parentheses.
-   >The following table shows that the standard atomic weights for `C', `H', `O', and `N'.<br> 
-   >Atomic Name	Carbon	Hydrogen	Oxygen	Nitrogen <br> 
+   >In this problem, we assume that the molecular formula is represented by only four elements, 'C'(Carbon), 'H' (Hydrogen), O'(Oxygen), and `N' (Nitrogen) without parentheses.
+   >The following table shows that the standard atomic weights for 'C', 'H', 'O', and `N'.<br> 
+   >Atomic Name	            Carbon	    Hydrogen	Oxygen	    Nitrogen <br> 
    >Standard Atomic Weight	12.01 g/mol	1.008 g/mol	16.00 g/mol	14.01 g/mol<br>
    >For example, the molar mass of a molecular formula C6H5OH is 94.108 g/mol which is computed by 6 × (12.01 g/mol) + 6 × (1.008 g/mol) + 1 × (16.00 g/mol).<br> 
    >Given a molecular formula, write a program to compute the molar mass of the formula.
