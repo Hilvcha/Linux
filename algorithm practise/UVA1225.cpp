@@ -29,10 +29,10 @@ int main(){
         for (int i = 1; i <= num_value; i++){
             deal(i);
         }
-        for(int i=0;i<10;i++){
+        for(int i=0;i<9;i++){
             cout<<a[i]<<' ';
         }
-        cout<<endl;
+        cout<<a[9]<<endl;
         memset(a,0,sizeof(a));
     }
     return 0;
