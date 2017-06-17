@@ -5,7 +5,7 @@
 using namespace std;
 int main(){
     freopen("in","r",stdin);
-    freopen("out","w",stdout);
+ //   freopen("out","w",stdout);
     
     vector<int> marble;
     vector<int>::iterator it;
@@ -29,6 +29,7 @@ int main(){
             }
         }
     }
+    system("pause");
     return 0;
 }
 
