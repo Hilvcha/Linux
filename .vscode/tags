@@ -1,0 +1,60 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALLOWED_HOSTS	Linux\mysite\mysite\settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
+AUTH_PASSWORD_VALIDATORS	Linux\mysite\mysite\settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:87
+AppConfig	Linux\mysite\polls\apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
+BASE_DIR	Linux\mysite\mysite\settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
+DATABASES	Linux\mysite\mysite\settings.py	/^DATABASES = {$/;"	kind:variable	line:76
+DEBUG	Linux\mysite\mysite\settings.py	/^DEBUG = True$/;"	kind:variable	line:26
+HttpResponse	Linux\mysite\polls\views.py	/^from django.http import HttpResponse$/;"	kind:namespace	line:2
+INSTALLED_APPS	Linux\mysite\mysite\settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
+LANGUAGE_CODE	Linux\mysite\mysite\settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:106
+MIDDLEWARE	Linux\mysite\mysite\settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:42
+PollsConfig	Linux\mysite\polls\apps.py	/^class PollsConfig(AppConfig):$/;"	kind:class	line:4
+ROOT_URLCONF	Linux\mysite\mysite\settings.py	/^ROOT_URLCONF = 'mysite.urls'$/;"	kind:variable	line:52
+SECRET_KEY	Linux\mysite\mysite\settings.py	/^SECRET_KEY = 'ar_$62%tn0g(&q$sq&-27oda7qm5t1j=pq2yw7xpq8%zt6fh_l'$/;"	kind:variable	line:23
+STATIC_URL	Linux\mysite\mysite\settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:120
+TEMPLATES	Linux\mysite\mysite\settings.py	/^TEMPLATES = [$/;"	kind:variable	line:54
+TIME_ZONE	Linux\mysite\mysite\settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:108
+TestCase	Linux\mysite\polls\tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
+USE_I18N	Linux\mysite\mysite\settings.py	/^USE_I18N = True$/;"	kind:variable	line:110
+USE_L10N	Linux\mysite\mysite\settings.py	/^USE_L10N = True$/;"	kind:variable	line:112
+USE_TZ	Linux\mysite\mysite\settings.py	/^USE_TZ = True$/;"	kind:variable	line:114
+WSGI_APPLICATION	Linux\mysite\mysite\settings.py	/^WSGI_APPLICATION = 'mysite.wsgi.application'$/;"	kind:variable	line:70
+__init__.py	Linux\mysite\mysite\__init__.py	1;"	kind:file	line:1
+__init__.py	Linux\mysite\polls\__init__.py	1;"	kind:file	line:1
+__init__.py	Linux\mysite\polls\migrations\__init__.py	1;"	kind:file	line:1
+admin	Linux\mysite\mysite\urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
+admin	Linux\mysite\polls\admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
+admin.py	Linux\mysite\polls\admin.py	1;"	kind:file	line:1
+application	Linux\mysite\mysite\wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
+apps.py	Linux\mysite\polls\apps.py	1;"	kind:file	line:1
+django	Linux\mysite\manage.py	/^            import django$/;"	kind:namespace	line:14
+execute_from_command_line	Linux\mysite\manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+get_wsgi_application	Linux\mysite\mysite\wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
+include	Linux\mysite\mysite\urls.py	/^from django.conf.urls import url,include$/;"	kind:namespace	line:16
+index	Linux\mysite\polls\views.py	/^def index(request):$/;"	kind:function	line:5
+manage.py	Linux\mysite\manage.py	1;"	kind:file	line:1
+models	Linux\mysite\polls\models.py	/^from django.db import models$/;"	kind:namespace	line:1
+models.py	Linux\mysite\polls\models.py	1;"	kind:file	line:1
+name	Linux\mysite\polls\apps.py	/^    name = 'polls'$/;"	kind:variable	line:5
+os	Linux\mysite\manage.py	/^import os$/;"	kind:namespace	line:2
+os	Linux\mysite\mysite\settings.py	/^import os$/;"	kind:namespace	line:13
+os	Linux\mysite\mysite\wsgi.py	/^import os$/;"	kind:namespace	line:10
+render	Linux\mysite\polls\views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
+settings.py	Linux\mysite\mysite\settings.py	1;"	kind:file	line:1
+sys	Linux\mysite\manage.py	/^import sys$/;"	kind:namespace	line:3
+tests.py	Linux\mysite\polls\tests.py	1;"	kind:file	line:1
+url	Linux\mysite\mysite\urls.py	/^from django.conf.urls import url,include$/;"	kind:namespace	line:16
+url	Linux\mysite\polls\urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:1
+urlpatterns	Linux\mysite\mysite\urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
+urlpatterns	Linux\mysite\polls\urls.py	/^urlpatterns=[$/;"	kind:variable	line:5
+urls.py	Linux\mysite\mysite\urls.py	1;"	kind:file	line:1
+urls.py	Linux\mysite\polls\urls.py	1;"	kind:file	line:1
+views	Linux\mysite\polls\urls.py	/^from . import views$/;"	kind:namespace	line:3
+views.py	Linux\mysite\polls\views.py	1;"	kind:file	line:1
+wsgi.py	Linux\mysite\mysite\wsgi.py	1;"	kind:file	line:1
