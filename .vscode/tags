@@ -4,50 +4,22 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-ALLOWED_HOSTS	Linux\blog\b\settings.py	/^ALLOWED_HOSTS = []$/;"	kind:variable	line:28
-AUTH_PASSWORD_VALIDATORS	Linux\blog\b\settings.py	/^AUTH_PASSWORD_VALIDATORS = [$/;"	kind:variable	line:87
-App1Config	Linux\blog\app_1\apps.py	/^class App1Config(AppConfig):$/;"	kind:class	line:4
-AppConfig	Linux\blog\app_1\apps.py	/^from django.apps import AppConfig$/;"	kind:namespace	line:1
-BASE_DIR	Linux\blog\b\settings.py	/^BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))$/;"	kind:variable	line:16
-DATABASES	Linux\blog\b\settings.py	/^DATABASES = {$/;"	kind:variable	line:76
-DEBUG	Linux\blog\b\settings.py	/^DEBUG = True$/;"	kind:variable	line:26
-INSTALLED_APPS	Linux\blog\b\settings.py	/^INSTALLED_APPS = [$/;"	kind:variable	line:33
-LANGUAGE_CODE	Linux\blog\b\settings.py	/^LANGUAGE_CODE = 'en-us'$/;"	kind:variable	line:106
-MIDDLEWARE	Linux\blog\b\settings.py	/^MIDDLEWARE = [$/;"	kind:variable	line:42
-ROOT_URLCONF	Linux\blog\b\settings.py	/^ROOT_URLCONF = 'b.urls'$/;"	kind:variable	line:52
-SECRET_KEY	Linux\blog\b\settings.py	/^SECRET_KEY = 'uq)nz4zw8*@vt6&q-lm635n6sfu^f8#&b4yo(v4!js7ug1dq#i'$/;"	kind:variable	line:23
-STATIC_URL	Linux\blog\b\settings.py	/^STATIC_URL = '\/static\/'$/;"	kind:variable	line:120
-TEMPLATES	Linux\blog\b\settings.py	/^TEMPLATES = [$/;"	kind:variable	line:54
-TIME_ZONE	Linux\blog\b\settings.py	/^TIME_ZONE = 'UTC'$/;"	kind:variable	line:108
-TestCase	Linux\blog\app_1\tests.py	/^from django.test import TestCase$/;"	kind:namespace	line:1
-USE_I18N	Linux\blog\b\settings.py	/^USE_I18N = True$/;"	kind:variable	line:110
-USE_L10N	Linux\blog\b\settings.py	/^USE_L10N = True$/;"	kind:variable	line:112
-USE_TZ	Linux\blog\b\settings.py	/^USE_TZ = True$/;"	kind:variable	line:114
-WSGI_APPLICATION	Linux\blog\b\settings.py	/^WSGI_APPLICATION = 'b.wsgi.application'$/;"	kind:variable	line:70
-__init__.py	Linux\blog\app_1\__init__.py	1;"	kind:file	line:1
-__init__.py	Linux\blog\app_1\migrations\__init__.py	1;"	kind:file	line:1
-__init__.py	Linux\blog\b\__init__.py	1;"	kind:file	line:1
-admin	Linux\blog\app_1\admin.py	/^from django.contrib import admin$/;"	kind:namespace	line:1
-admin	Linux\blog\b\urls.py	/^from django.contrib import admin$/;"	kind:namespace	line:17
-admin.py	Linux\blog\app_1\admin.py	1;"	kind:file	line:1
-application	Linux\blog\b\wsgi.py	/^application = get_wsgi_application()$/;"	kind:variable	line:16
-apps.py	Linux\blog\app_1\apps.py	1;"	kind:file	line:1
-django	Linux\blog\manage.py	/^            import django$/;"	kind:namespace	line:14
-execute_from_command_line	Linux\blog\manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
-get_wsgi_application	Linux\blog\b\wsgi.py	/^from django.core.wsgi import get_wsgi_application$/;"	kind:namespace	line:12
-manage.py	Linux\blog\manage.py	1;"	kind:file	line:1
-models	Linux\blog\app_1\models.py	/^from django.db import models$/;"	kind:namespace	line:1
-models.py	Linux\blog\app_1\models.py	1;"	kind:file	line:1
-name	Linux\blog\app_1\apps.py	/^    name = 'app_1'$/;"	kind:variable	line:5
-os	Linux\blog\b\settings.py	/^import os$/;"	kind:namespace	line:13
-os	Linux\blog\b\wsgi.py	/^import os$/;"	kind:namespace	line:10
-os	Linux\blog\manage.py	/^import os$/;"	kind:namespace	line:2
-render	Linux\blog\app_1\views.py	/^from django.shortcuts import render$/;"	kind:namespace	line:1
-settings.py	Linux\blog\b\settings.py	1;"	kind:file	line:1
-sys	Linux\blog\manage.py	/^import sys$/;"	kind:namespace	line:3
-tests.py	Linux\blog\app_1\tests.py	1;"	kind:file	line:1
-url	Linux\blog\b\urls.py	/^from django.conf.urls import url$/;"	kind:namespace	line:16
-urlpatterns	Linux\blog\b\urls.py	/^urlpatterns = [$/;"	kind:variable	line:19
-urls.py	Linux\blog\b\urls.py	1;"	kind:file	line:1
-views.py	Linux\blog\app_1\views.py	1;"	kind:file	line:1
-wsgi.py	Linux\blog\b\wsgi.py	1;"	kind:file	line:1
+Settings	../py\alien_invasion\alien_invasion.py	/^from settings import Settings$/;"	kind:namespace	line:3
+Settings	../py\alien_invasion\settings.py	/^class Settings():$/;"	kind:class	line:1
+Ship	../py\alien_invasion\alien_invasion.py	/^from ship import Ship$/;"	kind:namespace	line:4
+Ship	../py\alien_invasion\ship.py	/^class Ship():$/;"	kind:class	line:3
+__init__	../py\alien_invasion\settings.py	/^    def __init__(self):$/;"	kind:member	line:4
+__init__	../py\alien_invasion\ship.py	/^    def __init__(self,screen):$/;"	kind:member	line:5
+alien_invasion.py	../py\alien_invasion\alien_invasion.py	1;"	kind:file	line:1
+blitme	../py\alien_invasion\ship.py	/^    def blitme(self):$/;"	kind:member	line:16
+django	../blog\manage.py	/^            import django$/;"	kind:namespace	line:14
+execute_from_command_line	../blog\manage.py	/^        from django.core.management import execute_from_command_line$/;"	kind:namespace	line:8
+manage.py	../blog\manage.py	1;"	kind:file	line:1
+os	../blog\manage.py	/^import os$/;"	kind:namespace	line:2
+pygame	../py\alien_invasion\alien_invasion.py	/^import pygame$/;"	kind:namespace	line:2
+pygame	../py\alien_invasion\ship.py	/^import pygame$/;"	kind:namespace	line:1
+run_game	../py\alien_invasion\alien_invasion.py	/^def run_game():$/;"	kind:function	line:6
+settings.py	../py\alien_invasion\settings.py	1;"	kind:file	line:1
+ship.py	../py\alien_invasion\ship.py	1;"	kind:file	line:1
+sys	../blog\manage.py	/^import sys$/;"	kind:namespace	line:3
+sys	../py\alien_invasion\alien_invasion.py	/^import sys$/;"	kind:namespace	line:1
