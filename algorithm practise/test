@@ -1,0 +1,20 @@
+#lang racket
+(define A (* 5 5))
+(* A A)
+; 传入参数
+(define (rectangle a b)
+    (* a b))
+(rectangle 3 4)
+;lambda 为一个带有参数的过程
+(define square (lambda (x) (* 1 x)))
+(define (sqrt x)
+    (define (improve guess)
+        (average guess (/ x guess)))
+    (define (good-enough? guess)
+        (< (abs (- (square guess) x))
+            001))
+    (define (try guess)
+        (if (good-enough? guess)
+            guess
+            (try (improve guess))))
+    (try 1))
