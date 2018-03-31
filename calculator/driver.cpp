@@ -3,10 +3,10 @@ int Driver::no_of_errors;
 
 std::istream *Driver::input;
 
-void Driver::skip() {
+void Driver::skip() {         //ä¸¢å¼ƒå­—ç¬¦ç›´åˆ°æ¢ä¸‹ä¸€ä¸ªå¥
 	Driver::no_of_errors++;
 
-	while (*Driver::input) {	//¶ªÆú×Ö·ûÖ±µ½»»ÏÂÒ»¸ö¾ä
+	while (*Driver::input) {
 		char ch;
 		Driver::input->get(ch);
 

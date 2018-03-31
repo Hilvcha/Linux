@@ -3,9 +3,9 @@
 #include "parser.h"
 #include "table.h"
 #include "driver.h"
-#include<sstream>
-#include<iostream>
-#include<cctype>
+#include <sstream>
+#include <iostream>
+#include <cctype>
 
 using namespace std;
 using namespace Driver;
